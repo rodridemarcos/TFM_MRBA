@@ -1,0 +1,27 @@
+﻿codigo_serie,numero_secuencial,alias_serie,descripcion,unidad,frecuencia,posicion_columna,variable,grupo,agregacion_anual
+DHIENA2025IPVUVT_TTVA.T,5110743,SI_1_5.1,Estadísticas generales. IPV. Tasa de variación interanual.,Porcentaje,TRIMESTRAL,1,ipv_general,precios,media
+DHIENA2025IPVUVT_VVN_TTVA.T,5110764,SI_1_5.2,Estadísticas generales. IPV. Vivienda nueva. Tasa de variación interanual.,Porcentaje,TRIMESTRAL,2,ipv_vivienda_nueva,precios,media
+DHIENA2025IPVUVT_VVU_TTVA.T,5110766,SI_1_5.3,Estadísticas generales. IPV. Vivienda usada. Tasa de variación interanual.,Porcentaje,TRIMESTRAL,3,ipv_vivienda_usada,precios,media
+DHIVTNOAPLPMMUVT_RLI.T,2904387,SI_1_5.4,Estadísticas generales. Edificación y vivienda. Precio medio m2 de viviendas libres tasadas. Total nacional,Euros por metro cuadrado,TRIMESTRAL,4,precio_m2_vivienda_libre_nacional,precios,media
+D_1KB56100_FOTO,1590003,SI_1_5.11,Estadísticas generales. Edificación y vivienda. Precio de la vivienda. Viviendas de segunda mano. Precio metro cuadrado. Fotocasa,Euros por metro cuadrado,MENSUAL,11,precio_m2_fotocasa,precios,media
+D_1KB56100_IDEA,2924738,SI_1_5.12,Estadísticas generales. Edificación y vivienda. Precio de la vivienda. Viviendas de segunda mano. Precio metro cuadrado. Idealista,Euros por metro cuadrado,MENSUAL,12,precio_m2_idealista,precios,media
+D_1KB52212,314363,SI_1_5.16,Estadísticas generales. Edificación y vivienda. Visados obra nueva. Viviendas,Viviendas,MENSUAL,16,visados_obra_nueva,oferta,suma
+D_1KB02000,247506,SI_1_5.17,Estadísticas generales. Edificación y vivienda. Viviendas iniciadas. Total,Viviendas,MENSUAL,17,viviendas_iniciadas_total,oferta,suma
+D_1KB02100,247507,SI_1_5.18,Estadísticas generales. Edificación y vivienda. Viviendas iniciadas. Libres,Viviendas,MENSUAL,18,viviendas_iniciadas_libres,oferta,suma
+D_1KB02200,247508,SI_1_5.19,Estadísticas generales. Edificación y vivienda. Viviendas iniciadas. Protegidas,Viviendas,MENSUAL,19,viviendas_iniciadas_protegidas,oferta,suma
+DHITINOAPLNCVUVT_RI.M,1638272,SI_1_5.31,Estadísticas generales. Edificación y vivienda. Compraventa de viviendas. Total vivendas,Viviendas,MENSUAL,31,compraventas_totales,demanda_efectiva,suma
+DHITINOAPLNCVUVT_VVN_RI.M,1638273,SI_1_5.32,Estadísticas generales. Edificación y vivienda. Compraventa de viviendas. Total vivienda nueva,Viviendas,MENSUAL,32,compraventas_vivienda_nueva,demanda_efectiva,suma
+DHITINOAPLNCVUVT_VVU_RI.M,1638274,SI_1_5.33,Estadísticas generales. Edificación y vivienda. Compraventa de viviendas. Total vivienda usada,Viviendas,MENSUAL,33,compraventas_vivienda_usada,demanda_efectiva,suma
+DEPA202110_ES25.T,4637788,SI_1_5.35,Estadísticas generales. INE. EPA. Base 2021. Población de 25 o más años. Total Nacional. Ambos sexos. Trimestral,Miles de personas,TRIMESTRAL,35,poblacion_25_mas_miles,demografia_hogares,media
+DEPA202100.T,4635945,SI_1_5.36,Estadísticas generales. INE. EPA. Base 2021. Hogares. Total Nacional. Ambos sexos. Trimestral,Miles de personas,TRIMESTRAL,36,numero_hogares_miles,demografia_hogares,media
+DHIRINOAPLDMDUVT.T,1590216,SI_1_5.37,Estadísticas generales. Edificación y vivienda. Accesibilidad a la vivienda. Plazo medio de las hipotecas. Meses,Meses,TRIMESTRAL,37,plazo_medio_hipotecas_meses,accesibilidad,media
+DHIRINOAPLCPRUVT_TRPV.T,1590213,SI_1_5.38,Estadísticas generales. Edificación y vivienda. Accesibilidad a la vivienda. Relación Préstamo Valor de transacción (RPV),Porcentaje,TRIMESTRAL,38,relacion_prestamo_valor_pct,accesibilidad,media
+DHIRINOAPLCPRUVT_TPRPVS81.T,1590214,SI_1_5.39,Estadísticas generales. Edificación y vivienda. Accesibilidad a la vivienda. Porcentaje de préstamos con RPV>80%,Porcentaje,TRIMESTRAL,39,prestamos_rpv_superior_80_pct,accesibilidad,media
+D_IMVTIPLV,854087,SI_1_5.40,Tipo de interés. Tipo de los préstamos libres para adquisición de vivienda de hogares,Porcentaje,MENSUAL,40,tipo_interes_hipotecas_pct,accesibilidad,media
+DEPA202130.T,4634189,SI_1_5.41,Estadísticas Generales. EPA. Base 2021. Total Nacional. Ocupados. Ambos sexos. 16 y más años. Total CNAE,Miles de personas,TRIMESTRAL,41,ocupados_miles,demografia_hogares,media
+D_TKB57110_IPV,2453513,SI_1_5.43,Estadísticas generales. Edificación y vivienda. Accesibilidad a la vivienda. Precio de la vivienda/Renta bruta por hogar,Años,TRIMESTRAL,43,precio_vivienda_renta_hogar_anios,accesibilidad,media
+D_TKB57210_IPV,2453514,SI_1_5.44,Estadísticas generales. Edificación y vivienda. Accesibilidad a la vivienda. Esfuerzo teórico anual sin deducciones,Porcentaje,TRIMESTRAL,44,esfuerzo_teorico_anual_pct,accesibilidad,media
+D_IMVCHOGVT,902857,SI_1_5.55,Crédito hipotecario. Crédito a los hogares para adquisición de viviendas. Tasa Interanual,Porcentaje,MENSUAL,55,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,media
+D_IMVCHOGVP,854425,SI_1_5.56,Crédito hipotecario. Crédito a los hogares para adquisición de viviendas. Saldo en % del PIB,Porcentaje,TRIMESTRAL,56,credito_hipotecario_hogares_pct_pib,credito_financiacion,media
+D_IMVCHIPTT_ICTN,4202908,SI_1_5.58,"Préstamos inmobiliarios nuevos. Concedidos por entidades de depósito (Bancos, Cajas de Ahorro y Cooperativas de Crédito). Importe de las nuevas operaciones",Miles de euros,MENSUAL,58,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,suma
+D_IMVCDHOGR,854134,SI_1_5.59,Crédito hipotecario. Créditos dudosos a los hogares para adquisicion de viviendas. Ratio de dudosidad,Porcentaje,TRIMESTRAL,59,creditos_dudosos_vivienda_pct,credito_financiacion,media

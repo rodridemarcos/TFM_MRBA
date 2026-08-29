@@ -1,0 +1,507 @@
+﻿anio,variable,grupo,unidad,frecuencia,agregacion_anual,observaciones_disponibles,primera_fecha,ultima_fecha,observaciones_esperadas,cobertura_completa
+2006,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,4,2006-03-01,2006-12-01,12,False
+2006,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,4,2006-03-01,2006-12-01,12,False
+2006,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,4,2006-03-01,2006-12-01,12,False
+2006,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2006-01-01,2006-12-01,12,True
+2006,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2006-01-01,2006-12-01,12,True
+2006,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2006-01-01,2006-12-01,12,True
+2006,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2006-03-01,2006-12-01,4,True
+2006,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2006-01-01,2006-12-01,12,True
+2006,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2006-01-01,2006-12-01,12,True
+2006,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2006-01-01,2006-12-01,12,True
+2006,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2006-01-01,2006-12-01,12,True
+2006,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2006-01-01,2006-12-01,12,True
+2007,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2007-01-01,2007-12-01,12,True
+2007,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2007-01-01,2007-12-01,12,True
+2007,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2007-01-01,2007-12-01,12,True
+2007,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2007-01-01,2007-12-01,12,True
+2007,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2007-01-01,2007-12-01,12,True
+2007,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2007-01-01,2007-12-01,12,True
+2007,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2007-03-01,2007-12-01,4,True
+2007,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2007-01-01,2007-12-01,12,True
+2007,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2007-01-01,2007-12-01,12,True
+2007,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2007-01-01,2007-12-01,12,True
+2007,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2007-01-01,2007-12-01,12,True
+2007,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2007-01-01,2007-12-01,12,True
+2008,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2008-01-01,2008-12-01,12,True
+2008,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2008-01-01,2008-12-01,12,True
+2008,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2008-01-01,2008-12-01,12,True
+2008,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2008-01-01,2008-12-01,12,True
+2008,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2008-01-01,2008-12-01,12,True
+2008,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2008-01-01,2008-12-01,12,True
+2008,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2008-03-01,2008-12-01,4,True
+2008,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2008-01-01,2008-12-01,12,True
+2008,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2008-01-01,2008-12-01,12,True
+2008,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2008-01-01,2008-12-01,12,True
+2008,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2008-01-01,2008-12-01,12,True
+2008,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2008-01-01,2008-12-01,12,True
+2009,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2009-01-01,2009-12-01,12,True
+2009,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2009-01-01,2009-12-01,12,True
+2009,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2009-01-01,2009-12-01,12,True
+2009,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2009-01-01,2009-12-01,12,True
+2009,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2009-01-01,2009-12-01,12,True
+2009,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2009-01-01,2009-12-01,12,True
+2009,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2009-03-01,2009-12-01,4,True
+2009,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2009-01-01,2009-12-01,12,True
+2009,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2009-01-01,2009-12-01,12,True
+2009,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2009-01-01,2009-12-01,12,True
+2009,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2009-01-01,2009-12-01,12,True
+2009,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2009-01-01,2009-12-01,12,True
+2010,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2010-01-01,2010-12-01,12,True
+2010,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2010-01-01,2010-12-01,12,True
+2010,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2010-01-01,2010-12-01,12,True
+2010,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2010-01-01,2010-12-01,12,True
+2010,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2010-01-01,2010-12-01,12,True
+2010,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2010-01-01,2010-12-01,12,True
+2010,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2010-03-01,2010-12-01,4,True
+2010,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2010-01-01,2010-12-01,12,True
+2010,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2010-01-01,2010-12-01,12,True
+2010,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2010-01-01,2010-12-01,12,True
+2010,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2010-01-01,2010-12-01,12,True
+2010,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2010-01-01,2010-12-01,12,True
+2011,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2011-01-01,2011-12-01,12,True
+2011,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2011-01-01,2011-12-01,12,True
+2011,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2011-01-01,2011-12-01,12,True
+2011,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2011-01-01,2011-12-01,12,True
+2011,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2011-01-01,2011-12-01,12,True
+2011,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2011-01-01,2011-12-01,12,True
+2011,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2011-03-01,2011-12-01,4,True
+2011,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2011-01-01,2011-12-01,12,True
+2011,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2011-01-01,2011-12-01,12,True
+2011,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2011-01-01,2011-12-01,12,True
+2011,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2011-01-01,2011-12-01,12,True
+2011,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2011-01-01,2011-12-01,12,True
+2012,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2012-01-01,2012-12-01,12,True
+2012,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2012-01-01,2012-12-01,12,True
+2012,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2012-01-01,2012-12-01,12,True
+2012,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2012-01-01,2012-12-01,12,True
+2012,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2012-01-01,2012-12-01,12,True
+2012,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2012-01-01,2012-12-01,12,True
+2012,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2012-03-01,2012-12-01,4,True
+2012,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2012-01-01,2012-12-01,12,True
+2012,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2012-01-01,2012-12-01,12,True
+2012,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2012-01-01,2012-12-01,12,True
+2012,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2012-01-01,2012-12-01,12,True
+2012,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2012-01-01,2012-12-01,12,True
+2013,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2013-01-01,2013-12-01,12,True
+2013,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2013-01-01,2013-12-01,12,True
+2013,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2013-01-01,2013-12-01,12,True
+2013,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2013-01-01,2013-12-01,12,True
+2013,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2013-01-01,2013-12-01,12,True
+2013,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2013-01-01,2013-12-01,12,True
+2013,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2013-03-01,2013-12-01,4,True
+2013,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2013-01-01,2013-12-01,12,True
+2013,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2013-01-01,2013-12-01,12,True
+2013,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2013-01-01,2013-12-01,12,True
+2013,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2013-01-01,2013-12-01,12,True
+2013,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2013-01-01,2013-12-01,12,True
+2014,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2014-01-01,2014-12-01,12,True
+2014,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2014-01-01,2014-12-01,12,True
+2014,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2014-01-01,2014-12-01,12,True
+2014,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2014-01-01,2014-12-01,12,True
+2014,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2014-01-01,2014-12-01,12,True
+2014,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2014-01-01,2014-12-01,12,True
+2014,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2014-03-01,2014-12-01,4,True
+2014,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2014-01-01,2014-12-01,12,True
+2014,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2014-01-01,2014-12-01,12,True
+2014,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2014-01-01,2014-12-01,12,True
+2014,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2014-01-01,2014-12-01,12,True
+2014,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2014-01-01,2014-12-01,12,True
+2015,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2015-01-01,2015-12-01,12,True
+2015,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2015-01-01,2015-12-01,12,True
+2015,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2015-01-01,2015-12-01,12,True
+2015,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2015-01-01,2015-12-01,12,True
+2015,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2015-01-01,2015-12-01,12,True
+2015,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2015-01-01,2015-12-01,12,True
+2015,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2015-03-01,2015-12-01,4,True
+2015,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2015-01-01,2015-12-01,12,True
+2015,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2015-01-01,2015-12-01,12,True
+2015,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2015-01-01,2015-12-01,12,True
+2015,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2015-01-01,2015-12-01,12,True
+2015,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2015-01-01,2015-12-01,12,True
+2016,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2016-01-01,2016-12-01,12,True
+2016,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2016-01-01,2016-12-01,12,True
+2016,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2016-01-01,2016-12-01,12,True
+2016,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2016-01-01,2016-12-01,12,True
+2016,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2016-01-01,2016-12-01,12,True
+2016,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2016-01-01,2016-12-01,12,True
+2016,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2016-03-01,2016-12-01,4,True
+2016,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2016-01-01,2016-12-01,12,True
+2016,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2016-01-01,2016-12-01,12,True
+2016,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2016-01-01,2016-12-01,12,True
+2016,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2016-01-01,2016-12-01,12,True
+2016,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2016-01-01,2016-12-01,12,True
+2017,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2017-01-01,2017-12-01,12,True
+2017,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2017-01-01,2017-12-01,12,True
+2017,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2017-01-01,2017-12-01,12,True
+2017,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2017-01-01,2017-12-01,12,True
+2017,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2017-01-01,2017-12-01,12,True
+2017,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2017-01-01,2017-12-01,12,True
+2017,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,10,2017-03-01,2017-12-01,12,False
+2017,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2017-03-01,2017-12-01,4,True
+2017,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2017-01-01,2017-12-01,12,True
+2017,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2017-01-01,2017-12-01,12,True
+2017,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2017-01-01,2017-12-01,12,True
+2017,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2017-01-01,2017-12-01,12,True
+2017,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2017-01-01,2017-12-01,12,True
+2018,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2018-01-01,2018-12-01,12,True
+2018,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2018-01-01,2018-12-01,12,True
+2018,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2018-01-01,2018-12-01,12,True
+2018,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2018-01-01,2018-12-01,12,True
+2018,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2018-01-01,2018-12-01,12,True
+2018,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2018-01-01,2018-12-01,12,True
+2018,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,12,2018-01-01,2018-12-01,12,True
+2018,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2018-03-01,2018-12-01,4,True
+2018,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2018-01-01,2018-12-01,12,True
+2018,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2018-01-01,2018-12-01,12,True
+2018,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2018-01-01,2018-12-01,12,True
+2018,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2018-01-01,2018-12-01,12,True
+2018,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2018-01-01,2018-12-01,12,True
+2019,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2019-01-01,2019-12-01,12,True
+2019,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2019-01-01,2019-12-01,12,True
+2019,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2019-01-01,2019-12-01,12,True
+2019,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2019-01-01,2019-12-01,12,True
+2019,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2019-01-01,2019-12-01,12,True
+2019,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2019-01-01,2019-12-01,12,True
+2019,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,12,2019-01-01,2019-12-01,12,True
+2019,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2019-03-01,2019-12-01,4,True
+2019,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2019-01-01,2019-12-01,12,True
+2019,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2019-01-01,2019-12-01,12,True
+2019,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2019-01-01,2019-12-01,12,True
+2019,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2019-01-01,2019-12-01,12,True
+2019,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2019-01-01,2019-12-01,12,True
+2020,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2020-01-01,2020-12-01,12,True
+2020,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2020-01-01,2020-12-01,12,True
+2020,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2020-01-01,2020-12-01,12,True
+2020,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2020-01-01,2020-12-01,12,True
+2020,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2020-01-01,2020-12-01,12,True
+2020,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2020-01-01,2020-12-01,12,True
+2020,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,12,2020-01-01,2020-12-01,12,True
+2020,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2020-03-01,2020-12-01,4,True
+2020,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2020-01-01,2020-12-01,12,True
+2020,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2020-01-01,2020-12-01,12,True
+2020,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2020-01-01,2020-12-01,12,True
+2020,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2020-01-01,2020-12-01,12,True
+2020,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2020-01-01,2020-12-01,12,True
+2021,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2021-01-01,2021-12-01,12,True
+2021,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2021-01-01,2021-12-01,12,True
+2021,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2021-01-01,2021-12-01,12,True
+2021,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2021-01-01,2021-12-01,12,True
+2021,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2021-01-01,2021-12-01,12,True
+2021,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2021-01-01,2021-12-01,12,True
+2021,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,12,2021-01-01,2021-12-01,12,True
+2021,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2021-03-01,2021-12-01,4,True
+2021,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2021-01-01,2021-12-01,12,True
+2021,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2021-01-01,2021-12-01,12,True
+2021,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2021-01-01,2021-12-01,12,True
+2021,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2021-01-01,2021-12-01,12,True
+2021,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2021-01-01,2021-12-01,12,True
+2022,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2022-01-01,2022-12-01,12,True
+2022,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2022-01-01,2022-12-01,12,True
+2022,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2022-01-01,2022-12-01,12,True
+2022,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2022-01-01,2022-12-01,12,True
+2022,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2022-01-01,2022-12-01,12,True
+2022,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2022-01-01,2022-12-01,12,True
+2022,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,12,2022-01-01,2022-12-01,12,True
+2022,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2022-03-01,2022-12-01,4,True
+2022,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2022-01-01,2022-12-01,12,True
+2022,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2022-01-01,2022-12-01,12,True
+2022,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2022-01-01,2022-12-01,12,True
+2022,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2022-01-01,2022-12-01,12,True
+2022,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2022-01-01,2022-12-01,12,True
+2023,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2023-01-01,2023-12-01,12,True
+2023,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2023-01-01,2023-12-01,12,True
+2023,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2023-01-01,2023-12-01,12,True
+2023,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2023-01-01,2023-12-01,12,True
+2023,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2023-01-01,2023-12-01,12,True
+2023,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2023-01-01,2023-12-01,12,True
+2023,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,12,2023-01-01,2023-12-01,12,True
+2023,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2023-03-01,2023-12-01,4,True
+2023,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2023-01-01,2023-12-01,12,True
+2023,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2023-01-01,2023-12-01,12,True
+2023,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2023-01-01,2023-12-01,12,True
+2023,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2023-01-01,2023-12-01,12,True
+2023,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2023-01-01,2023-12-01,12,True
+2024,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2024-01-01,2024-12-01,12,True
+2024,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2024-01-01,2024-12-01,12,True
+2024,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2024-01-01,2024-12-01,12,True
+2024,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2024-01-01,2024-12-01,12,True
+2024,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2024-01-01,2024-12-01,12,True
+2024,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2024-01-01,2024-12-01,12,True
+2024,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,12,2024-01-01,2024-12-01,12,True
+2024,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2024-03-01,2024-12-01,4,True
+2024,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2024-01-01,2024-12-01,12,True
+2024,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2024-01-01,2024-12-01,12,True
+2024,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2024-01-01,2024-12-01,12,True
+2024,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2024-01-01,2024-12-01,12,True
+2024,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2024-01-01,2024-12-01,12,True
+2025,compraventas_totales,demanda_efectiva,Viviendas,MENSUAL,suma,12,2025-01-01,2025-12-01,12,True
+2025,compraventas_vivienda_nueva,demanda_efectiva,Viviendas,MENSUAL,suma,12,2025-01-01,2025-12-01,12,True
+2025,compraventas_vivienda_usada,demanda_efectiva,Viviendas,MENSUAL,suma,12,2025-01-01,2025-12-01,12,True
+2025,credito_hipotecario_hogares_pct_pib,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,credito_hipotecario_hogares_tasa_interanual_pct,credito_financiacion,Porcentaje,MENSUAL,media,12,2025-01-01,2025-12-01,12,True
+2025,creditos_dudosos_vivienda_pct,credito_financiacion,Porcentaje,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,esfuerzo_teorico_anual_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,ipv_general,precios,Porcentaje,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,ipv_vivienda_nueva,precios,Porcentaje,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,ipv_vivienda_usada,precios,Porcentaje,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,numero_hogares_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,ocupados_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,plazo_medio_hipotecas_meses,accesibilidad,Meses,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,poblacion_25_mas_miles,demografia_hogares,Miles de personas,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,precio_m2_fotocasa,precios,Euros por metro cuadrado,MENSUAL,media,12,2025-01-01,2025-12-01,12,True
+2025,precio_m2_idealista,precios,Euros por metro cuadrado,MENSUAL,media,12,2025-01-01,2025-12-01,12,True
+2025,precio_m2_vivienda_libre_nacional,precios,Euros por metro cuadrado,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,precio_vivienda_renta_hogar_anios,accesibilidad,Años,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,prestamos_inmobiliarios_nuevos_miles_euros,credito_financiacion,Miles de euros,MENSUAL,suma,12,2025-01-01,2025-12-01,12,True
+2025,prestamos_rpv_superior_80_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,relacion_prestamo_valor_pct,accesibilidad,Porcentaje,TRIMESTRAL,media,4,2025-03-01,2025-12-01,4,True
+2025,tipo_interes_hipotecas_pct,accesibilidad,Porcentaje,MENSUAL,media,12,2025-01-01,2025-12-01,12,True
+2025,visados_obra_nueva,oferta,Viviendas,MENSUAL,suma,12,2025-01-01,2025-12-01,12,True
+2025,viviendas_iniciadas_libres,oferta,Viviendas,MENSUAL,suma,12,2025-01-01,2025-12-01,12,True
+2025,viviendas_iniciadas_protegidas,oferta,Viviendas,MENSUAL,suma,12,2025-01-01,2025-12-01,12,True
+2025,viviendas_iniciadas_total,oferta,Viviendas,MENSUAL,suma,12,2025-01-01,2025-12-01,12,True

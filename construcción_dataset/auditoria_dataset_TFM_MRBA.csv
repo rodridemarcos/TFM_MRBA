@@ -1,0 +1,38 @@
+﻿Clasificación;Nº;Variable;Tipología;Descripción;Tipo de valor;Nivel de desagregación;Uso;Valores ausentes;Cobertura (%)
+Identificadores;4;codigo_provincia;int64;Código numérico del territorio;Entero;Identificador;Predictora;0;100.0
+Identificadores;4;comunidad_autonoma;str;Comunidad autónoma;Categórico;Identificador;Predictora;0;100.0
+Identificadores;4;periodo;str;Año y trimestre de la observación;Categórico;Identificador;Predictora;0;100.0
+Identificadores;4;provincia;str;Provincia o ciudad autónoma;Categórico;Identificador;Predictora;0;100.0
+Demografía y hogares;8;pct_18_34;float64;Población de entre 18 y 34 años;%;Provincial;Predictora;0;100.0
+Demografía y hogares;8;pct_35_64;float64;Población de entre 35 y 64 años;%;Provincial;Predictora;0;100.0
+Demografía y hogares;8;pct_65_mas;float64;Población de 65 años o más;%;Provincial;Predictora;0;100.0
+Demografía y hogares;8;pct_hogares_unipersonales;float64;Proporción de hogares unipersonales;%;Provincial;Predictora;0;100.0
+Demografía y hogares;8;pct_poblacion_espanola;float64;Proporción de población de nacionalidad española;%;Provincial;Predictora;0;100.0
+Demografía y hogares;8;poblacion_total;float64;Población total del territorio;Entero;Provincial;Predictora;0;100.0
+Demografía y hogares;8;tamano_medio_hogar;float64;Número medio de personas por hogar;Decimal;Autonómico;Predictora;0;100.0
+Demografía y hogares;8;tasa_migracion_neta_exterior_por_1000_habitantes;float64;Saldo migratorio exterior por cada 1.000 habitantes;Tasa;Provincial;Predictora;0;100.0
+Mercado laboral y rentas;8;renta_mediana_por_unidad_consumo_eur;float64;Renta mediana por unidad de consumo;Euros;Autonómico;Predictora;0;100.0
+Mercado laboral y rentas;8;renta_neta_media_por_hogar_eur;float64;Renta neta media por hogar;Euros;Provincial;Predictora;0;100.0
+Mercado laboral y rentas;8;salario_medio_anual_euros_hombre;float64;Salario bruto medio anual de los hombres;Euros;Provincial;No predictora;0;100.0
+Mercado laboral y rentas;8;salario_medio_anual_euros_mujer;float64;Salario bruto medio anual de las mujeres;Euros;Provincial;No predictora;0;100.0
+Mercado laboral y rentas;8;salario_medio_anual_euros_total;float64;Salario bruto medio anual;Euros;Provincial;Predictora;0;100.0
+Mercado laboral y rentas;8;tasa_actividad_pct_total;float64;Tasa de actividad;%;Provincial;Predictora;0;100.0
+Mercado laboral y rentas;8;tasa_empleo_pct_total;float64;Tasa de empleo;%;Provincial;Predictora;0;100.0
+Mercado laboral y rentas;8;tasa_paro_pct_total;float64;Tasa de paro;%;Provincial;Predictora;0;100.0
+Entorno económico;2;indice_costes_construccion;float64;Índice de costes de construcción;Índice;Nacional;Predictora;0;100.0
+Entorno económico;2;indice_precios_consumo_base_2015;float64;Índice de precios al consumo provincial, base 2015 = 100;Índice;Provincial;Predictora;0;100.0
+Financiación;2;importe_medio_hipoteca_vivienda_eur;float64;Importe medio de las hipotecas sobre vivienda;Euros;Provincial;Predictora;0;100.0
+Financiación;2;tipo_interes_prestamos_vivienda_pct;float64;Tipo de interés de los préstamos para vivienda;%;Nacional;Predictora;0;100.0
+Mercado residencial y oferta;5;compraventas_por_1000_hab;float64;Compraventas trimestrales por cada 1.000 habitantes;Tasa;Provincial;Predictora;0;100.0
+Mercado residencial y oferta;5;ipv_general;float64;Índice de precios de vivienda de la comunidad autónoma;Índice;Autonómico;Predictora;0;100.0
+Mercado residencial y oferta;5;pct_compraventas_vivienda_nueva;float64;Proporción de compraventas de vivienda nueva;%;Provincial;Predictora;0;100.0
+Mercado residencial y oferta;5;valor_tasado_m2;float64;Valor tasado medio de la vivienda;Euros/m²;Provincial;Predictora;0;100.0
+Mercado residencial y oferta;5;visados_obra_nueva_por_1000_hab;float64;Visados de obra nueva por cada 1.000 habitantes;Tasa;Provincial;Predictora;0;100.0
+Presión turística;2;pernoctaciones_por_habitante;float64;Pernoctaciones hoteleras por habitante;Tasa;Provincial;Predictora;0;100.0
+Presión turística;2;plazas_hoteleras_por_1000_hab;float64;Plazas hoteleras por cada 1.000 habitantes;Tasa;Provincial;Predictora;0;100.0
+Control de calidad;1;valores_arrastrados;int64;Indica si la observación usa series anuales propagadas;Binario;Autonómico;Predictora;0;100.0
+Variables derivadas;4;IAV_hombre;float64;IAV calculado con el salario masculino;Años de salario;Provincial;No predictora;0;100.0
+Variables derivadas;4;IAV_mujer;float64;IAV calculado con el salario femenino;Años de salario;Provincial;No predictora;0;100.0
+Variables derivadas;4;brecha_iav_absoluta;float64;Diferencia entre el IAV femenino y el masculino;Años de salario;Provincial;No predictora;0;100.0
+Variables derivadas;4;precio_m2_mercado;float64;Precio de mercado reanclado con el IPV del INE;Euros/m²;Provincial;No predictora;0;100.0
+Variable objetivo;1;IAV_total;float64;Años de salario necesarios para adquirir una vivienda de 80 m²;Años de salario;Provincial;No predictora;0;100.0

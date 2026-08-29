@@ -1,0 +1,14 @@
+﻿indicador,valor
+filas_fuente,145089
+filas_mensuales_largo,48048
+filas_mensuales_ancho,6864
+filas_anuales_ancho,565
+territorios,52
+periodo_inicial,2015M01
+periodo_final,2025M12
+anios_incluidos,11
+nulos_valor_mensual,98
+duplicados,0
+grupos_anuales_incompletos,49
+valor_minimo,0.0
+valor_maximo,381103.0

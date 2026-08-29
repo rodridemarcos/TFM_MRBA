@@ -379,15 +379,36 @@ NO_PREDICTORAS = [
 # ==============================================================================
 
 def determinar_nivel(df, columna):
-    """Clasifica una variable según su grado de desagregación territorial."""
+    """Clasifica una variable según su grado de desagregación territorial.
+
+    No basta con contar valores distintos, ya que algunas series provinciales
+    aparecen redondeadas y toman pocos valores diferentes. Se comprueba por
+    tanto si las provincias de una misma comunidad autónoma comparten siempre
+    el mismo valor, que es la condición que define una serie autonómica.
+    """
     if columna in ("periodo", "provincia", "codigo_provincia", "comunidad_autonoma"):
         return "Identificador"
-    distintos = df.groupby("periodo")[columna].nunique().mean()
-    if distintos <= 1.05:
+    if columna == "valores_arrastrados":
+        return "No aplica"
+
+    if df.groupby("periodo")[columna].nunique().mean() <= 1.05:
         return "Nacional"
-    if distintos <= 20:
-        return "Autonómico"
-    return "Provincial"
+
+    coincide_en_comunidad = (
+        df.groupby(["periodo", "comunidad_autonoma"])[columna].nunique().max() == 1
+    )
+    return "Autonómico" if coincide_en_comunidad else "Provincial"
+
+
+def determinar_uso(bloque, variable):
+    """Indica el papel que puede desempeñar cada variable en la modelización."""
+    if bloque == "Identificadores":
+        return "Identificador"
+    if bloque == "Control de calidad":
+        return "Control"
+    if variable in NO_PREDICTORAS:
+        return "No predictora"
+    return "Predictora"
 
 
 def construir_auditoria(df):
@@ -401,7 +422,7 @@ def construir_auditoria(df):
             "Descripción": descripcion,
             "Tipo de valor": tipo_valor,
             "Nivel de desagregación": determinar_nivel(df, variable),
-            "Uso": ("No predictora" if variable in NO_PREDICTORAS else "Predictora"),
+            "Uso": determinar_uso(bloque, variable),
             "Valores ausentes": int(df[variable].isna().sum()),
             "Cobertura (%)": round(df[variable].notna().mean() * 100, 2),
         })
@@ -466,7 +487,7 @@ def main():
     # ------------------------------ Resumen -----------------------------------
     print(f"Dataset generado: {df.shape[0]:,} observaciones × {df.shape[1]} variables")
     print(f"Territorios: {df['provincia'].nunique()} | Periodos: {df['periodo'].nunique()}")
-    print(f"Predictoras: {(auditoria['Uso'] == 'Predictora').sum() - 4}")
+    print(f"Predictoras: {(auditoria['Uso'] == 'Predictora').sum()}")
     print(f"Valores ausentes: {int(df.isna().sum().sum())}")
     print(f"Observaciones con series arrastradas: {int(df['valores_arrastrados'].sum())}")
 

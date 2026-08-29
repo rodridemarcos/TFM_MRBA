@@ -1,8 +1,8 @@
 ﻿Clasificación;Nº;Variable;Tipología;Descripción;Tipo de valor;Nivel de desagregación;Uso;Valores ausentes;Cobertura (%)
-Identificadores;4;codigo_provincia;int64;Código numérico del territorio;Entero;Identificador;Predictora;0;100.0
-Identificadores;4;comunidad_autonoma;str;Comunidad autónoma;Categórico;Identificador;Predictora;0;100.0
-Identificadores;4;periodo;str;Año y trimestre de la observación;Categórico;Identificador;Predictora;0;100.0
-Identificadores;4;provincia;str;Provincia o ciudad autónoma;Categórico;Identificador;Predictora;0;100.0
+Identificadores;4;codigo_provincia;int64;Código numérico del territorio;Entero;Identificador;Identificador;0;100.0
+Identificadores;4;comunidad_autonoma;str;Comunidad autónoma;Categórico;Identificador;Identificador;0;100.0
+Identificadores;4;periodo;str;Año y trimestre de la observación;Categórico;Identificador;Identificador;0;100.0
+Identificadores;4;provincia;str;Provincia o ciudad autónoma;Categórico;Identificador;Identificador;0;100.0
 Demografía y hogares;8;pct_18_34;float64;Población de entre 18 y 34 años;%;Provincial;Predictora;0;100.0
 Demografía y hogares;8;pct_35_64;float64;Población de entre 35 y 64 años;%;Provincial;Predictora;0;100.0
 Demografía y hogares;8;pct_65_mas;float64;Población de 65 años o más;%;Provincial;Predictora;0;100.0
@@ -30,7 +30,7 @@ Mercado residencial y oferta;5;valor_tasado_m2;float64;Valor tasado medio de la 
 Mercado residencial y oferta;5;visados_obra_nueva_por_1000_hab;float64;Visados de obra nueva por cada 1.000 habitantes;Tasa;Provincial;Predictora;0;100.0
 Presión turística;2;pernoctaciones_por_habitante;float64;Pernoctaciones hoteleras por habitante;Tasa;Provincial;Predictora;0;100.0
 Presión turística;2;plazas_hoteleras_por_1000_hab;float64;Plazas hoteleras por cada 1.000 habitantes;Tasa;Provincial;Predictora;0;100.0
-Control de calidad;1;valores_arrastrados;int64;Indica si la observación usa series anuales propagadas;Binario;Autonómico;Predictora;0;100.0
+Control de calidad;1;valores_arrastrados;int64;Indica si la observación usa series anuales propagadas;Binario;No aplica;Control;0;100.0
 Variables derivadas;4;IAV_hombre;float64;IAV calculado con el salario masculino;Años de salario;Provincial;No predictora;0;100.0
 Variables derivadas;4;IAV_mujer;float64;IAV calculado con el salario femenino;Años de salario;Provincial;No predictora;0;100.0
 Variables derivadas;4;brecha_iav_absoluta;float64;Diferencia entre el IAV femenino y el masculino;Años de salario;Provincial;No predictora;0;100.0

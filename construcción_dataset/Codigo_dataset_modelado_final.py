@@ -13,7 +13,9 @@ from pathlib import Path
 from typing import Iterable
 import numpy as np
 import pandas as pd
+import warnings
 
+warnings.filterwarnings("ignore")
 
 ANIO_INICIO = 2015
 ANIO_FIN = 2024
@@ -27,6 +29,16 @@ SUBCARPETAS = {
     "turismo": "Turismo",
     "vivienda": "Vivienda",
 }
+
+# Las fuentes se leen directamente del repositorio del proyecto en GitHub.
+# Para trabajar sin conexión basta con descargar la carpeta "fuentes" y
+# apuntar URL_FUENTES a la ruta local correspondiente.
+from urllib.parse import quote
+
+URL_FUENTES = (
+    "https://raw.githubusercontent.com/rodridemarcos/TFM_MRBA/"
+    "refs/heads/main/fuentes"
+)
 
 
 def normalizar_texto(texto: object) -> str:
@@ -66,66 +78,24 @@ def normalizar_provincia_clave(texto: object) -> str:
     return PROVINCIA_ALIAS.get(clave, clave)
 
 
-def localizar_archivo(
-    raiz: Path,
-    subcarpeta: str,
-    nombre: str,
-) -> Path:
-    """
-    Busca primero el nombre exacto y después copias del tipo '(1)', '(2)', etc.
-    También permite ejecutar el script sobre una carpeta plana, útil para pruebas.
-    """
-    candidatos_raiz = [
-        raiz / subcarpeta,
-        raiz,
-    ]
-
-    stem = Path(nombre).stem
-    suffix = Path(nombre).suffix
-
-    for carpeta in candidatos_raiz:
-        exacto = carpeta / nombre
-        if exacto.exists():
-            return exacto
-
-        patrones = [
-            f"{stem}(*){suffix}",
-            f"{stem} (*){suffix}",
-        ]
-        coincidencias: list[Path] = []
-        for patron in patrones:
-            coincidencias.extend(sorted(carpeta.glob(patron)))
-        if coincidencias:
-            return coincidencias[0]
-
-    coincidencias_recursivas = sorted(
-        p for p in raiz.rglob(f"{stem}*{suffix}")
-        if p.is_file()
-    )
-    if coincidencias_recursivas:
-        return coincidencias_recursivas[0]
-
-    raise FileNotFoundError(
-        f"No se ha localizado '{nombre}' en '{raiz / subcarpeta}' ni en sus subcarpetas."
-    )
-
-
 def leer_csv(raiz: Path, bloque: str, nombre: str,) -> pd.DataFrame:
+    """Lee un fichero de fuente directamente desde el repositorio de GitHub.
 
-    ruta = localizar_archivo(
-        raiz,
-        SUBCARPETAS[bloque],
-        nombre,
-    )
+    Se construye la URL a partir de la carpeta temática y el nombre del
+    fichero, codificando los caracteres no ASCII de las subcarpetas
+    (por ejemplo, la tilde de "Economía").
+    """
+    carpeta = quote(SUBCARPETAS[bloque])
+    url = f"{URL_FUENTES}/{carpeta}/{nombre}"
 
-    # Detecta automáticamente si el CSV utiliza coma o punto y coma.
-    with open(
-        ruta,
-        "r",
-        encoding="utf-8-sig",
-        errors="replace",
-    ) as archivo:
-        primera_linea = archivo.readline()
+    # Detecta automáticamente si el CSV utiliza coma o punto y coma
+    # leyendo únicamente la primera línea.
+    import urllib.request
+
+    with urllib.request.urlopen(url) as respuesta:
+        primera_linea = (
+            respuesta.readline().decode("utf-8-sig", errors="replace")
+        )
 
     separador = (
         ";"
@@ -134,14 +104,14 @@ def leer_csv(raiz: Path, bloque: str, nombre: str,) -> pd.DataFrame:
     )
 
     df = pd.read_csv(
-        ruta,
+        url,
         sep=separador,
         encoding="utf-8-sig",
         low_memory=False,
     )
 
     print(
-        f"Leído: {ruta.name:<65} "
+        f"Leído: {nombre:<65} "
         f"{df.shape} | separador='{separador}'"
     )
 
@@ -893,7 +863,7 @@ def construir_diccionario(
                 "tipo_dato": str(df[columna].dtype),
                 "origen": origen_columnas.get(columna, "derivada"),
                 "rol_propuesto": rol,
-                "porcentaje_no_nulo": round(
+                "cobertura_pct": round(
                     df[columna].notna().mean() * 100, 2
                 ),
             }
@@ -903,7 +873,7 @@ def construir_diccionario(
 
 def main() -> None:
     parser = argparse.ArgumentParser(
-        description="Construye el panel trimestral provincial 2019-2024 del TFM."
+        description="Construye el panel maestro trimestral provincial 2015-2024 del TFM."
     )
     parser.add_argument(
         "--root",
@@ -919,8 +889,8 @@ def main() -> None:
     )
     args = parser.parse_args()
 
-    raiz = args.root
-    salida = args.output or (raiz / "Dataset conjunto")
+    raiz = None
+    salida = args.output or Path(__file__).parent
     salida.mkdir(parents=True, exist_ok=True)
 
     incidencias: list[dict] = []
@@ -1248,7 +1218,7 @@ def main() -> None:
     mercado_nacional = preparar_indicadores_nacionales_trimestrales(
         leer_csv(
             raiz,
-            "mercado_inmobiliario",
+            "vivienda",
             "indicadores_mercado_inmobiliario_2015_2025.csv",
         )
     )
@@ -1289,56 +1259,13 @@ def main() -> None:
         }
     )
 
-    # Se conservan solo columnas con algún dato en 2019-2024.
+    # Se conservan solo columnas con algún dato en el periodo 2015-2024.
     columnas_vacias = [
         c for c in panel.columns
         if panel[c].isna().all()
     ]
     if columnas_vacias:
         panel = panel.drop(columns=columnas_vacias)
-
-    # Dataset de modelado: elimina columnas descriptivas o redundantes.
-    excluir_modelado = {
-        "provincia",
-        "comunidad_autonoma",
-        "fecha",
-        "periodo",
-        "tasa_actividad_pct_hombres",
-        "tasa_actividad_pct_mujeres",
-        "tasa_empleo_pct_hombres",
-        "tasa_empleo_pct_mujeres",
-        "tasa_paro_pct_hombres",
-        "tasa_paro_pct_mujeres",
-        "observaciones_alquiler_vivienda_colectiva",
-    }
-    cobertura_previa = panel.notna().mean()
-    baja_cobertura = {
-        c for c in panel.columns
-        if cobertura_previa[c] < 0.40
-    }
-    preservar = {
-        "codigo_ccaa",
-        "codigo_provincia",
-        "anio",
-        "trimestre",
-        "mes",
-        "valor_tasado_m2",
-        "ipva_indice_general",
-        "ipva_variacion_anual_general",
-        "ipv_general",
-    
-        "IAV_total",
-        "IAV_hombre",
-        "IAV_mujer",
-    }
-    
-    excluir_modelado = (
-        excluir_modelado
-        | (baja_cobertura - preservar)
-    )
-    modelado = panel[
-        [c for c in panel.columns if c not in excluir_modelado]
-    ].copy()
 
     # ------------------------------------------------------------------
     # 9. Validación
@@ -1351,7 +1278,7 @@ def main() -> None:
         )
 
     if panel["anio"].min() != ANIO_INICIO or panel["anio"].max() != ANIO_FIN:
-        raise AssertionError("El periodo final no coincide con 2019-2024.")
+        raise AssertionError("El periodo final no coincide con 2015-2024.")
 
     if panel["codigo_provincia"].nunique() != 52:
         raise AssertionError("El panel final no contiene 52 provincias.")
@@ -1372,40 +1299,10 @@ def main() -> None:
             "Comprueba los salarios y el valor tasado."
         )
 
-    cobertura = pd.DataFrame(
-        {
-            "variable": panel.columns,
-            "tipo_dato": [str(panel[c].dtype) for c in panel.columns],
-            "n_no_nulos": [int(panel[c].notna().sum()) for c in panel.columns],
-            "n_nulos": [int(panel[c].isna().sum()) for c in panel.columns],
-            "porcentaje_cobertura": [
-                round(panel[c].notna().mean() * 100, 2)
-                for c in panel.columns
-            ],
-            "anio_min_con_dato": [
-                int(panel.loc[panel[c].notna(), "anio"].min())
-                if panel[c].notna().any()
-                else np.nan
-                for c in panel.columns
-            ],
-            "anio_max_con_dato": [
-                int(panel.loc[panel[c].notna(), "anio"].max())
-                if panel[c].notna().any()
-                else np.nan
-                for c in panel.columns
-            ],
-        }
-    ).sort_values(
-        ["porcentaje_cobertura", "variable"],
-        ascending=[False, True],
-    )
-
     auditoria = pd.DataFrame(
         [
             {"metrica": "filas_panel", "valor": len(panel)},
             {"metrica": "columnas_panel", "valor": panel.shape[1]},
-            {"metrica": "filas_modelado", "valor": len(modelado)},
-            {"metrica": "columnas_modelado", "valor": modelado.shape[1]},
             {"metrica": "provincias", "valor": panel["codigo_provincia"].nunique()},
             {"metrica": "ccaa", "valor": panel["codigo_ccaa"].nunique()},
             {"metrica": "anio_min", "valor": panel["anio"].min()},
@@ -1435,38 +1332,31 @@ def main() -> None:
         ]
     )
 
-    diccionario = construir_diccionario(panel, origen_columnas)
-    incidencias_df = pd.DataFrame(incidencias)
+    # ------------------------------------------------------------------
+    # Auditoría del maestro: nombre, tipo, origen, rol y cobertura de cada
+    # una de las 127 variables. Sustituye a los ficheros de diccionario y
+    # cobertura que se generaban por separado.
+    # ------------------------------------------------------------------
+    auditoria_variables = construir_diccionario(panel, origen_columnas)
 
     # ------------------------------------------------------------------
-    # 10. Exportación
+    # Exportación: únicamente el conjunto maestro y su auditoría.
     # ------------------------------------------------------------------
-    rutas = {
-        "panel": salida / "dataset_maestro_vivienda_trimestral_2015_2024_IAV.csv",
-        "modelado": salida / "dataset_modelado_vivienda_trimestral_2015_2024_IAV.csv",
-        "cobertura": salida / "dataset_maestro_cobertura_variables.csv",
-        "auditoria": salida / "dataset_maestro_auditoria.csv",
-        "diccionario": salida / "dataset_maestro_diccionario_variables.csv",
-        "incidencias": salida / "dataset_maestro_incidencias_merge.csv",
-    }
-    
-    columnas_float = modelado.select_dtypes(include="float").columns
-    modelado[columnas_float] = modelado[columnas_float].round(2)
+    ruta_maestro = (
+        salida / "dataset_maestro_vivienda_trimestral_2015_2024_IAV.csv"
+    )
+    ruta_auditoria = salida / "auditoria_dataset_maestro.csv"
 
-    panel.to_csv(rutas["panel"], index=False, encoding="utf-8-sig")
-    modelado.to_csv(rutas["modelado"], index=False, encoding="utf-8-sig")
-    cobertura.to_csv(rutas["cobertura"], index=False, encoding="utf-8-sig")
-    auditoria.to_csv(rutas["auditoria"], index=False, encoding="utf-8-sig")
-    diccionario.to_csv(rutas["diccionario"], index=False, encoding="utf-8-sig")
-    incidencias_df.to_csv(
-        rutas["incidencias"], index=False, encoding="utf-8-sig"
+    panel.to_csv(ruta_maestro, index=False, encoding="utf-8-sig")
+    auditoria_variables.to_csv(
+        ruta_auditoria, index=False, encoding="utf-8-sig"
     )
 
     print("\nDataset maestro generado correctamente")
     print("-" * 60)
     print(auditoria.to_string(index=False))
     print("\nArchivos exportados:")
-    for ruta in rutas.values():
+    for ruta in (ruta_maestro, ruta_auditoria):
         print(f"  - {ruta}")
 
 

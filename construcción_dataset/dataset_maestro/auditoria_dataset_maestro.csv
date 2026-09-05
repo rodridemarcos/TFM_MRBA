@@ -1,0 +1,128 @@
+﻿variable;tipo_dato;origen;rol_propuesto;cobertura_pct
+codigo_provincia;Int64;Mercado laboral;identificacion;100
+provincia;string;Mercado laboral;identificacion;100
+anio;Int64;Mercado laboral;identificacion;100
+trimestre;Int64;Mercado laboral;identificacion;100
+tasa_actividad_pct_hombres;float64;Mercado laboral;explicativa;100
+tasa_empleo_pct_hombres;float64;Mercado laboral;explicativa;100
+tasa_paro_pct_hombres;float64;Mercado laboral;explicativa;100
+tasa_actividad_pct_mujeres;float64;Mercado laboral;explicativa;100
+tasa_empleo_pct_mujeres;float64;Mercado laboral;explicativa;100
+tasa_paro_pct_mujeres;float64;Mercado laboral;explicativa;100
+tasa_actividad_pct_total;float64;Mercado laboral;explicativa;100
+tasa_empleo_pct_total;float64;Mercado laboral;explicativa;100
+tasa_paro_pct_total;float64;Mercado laboral;explicativa;100
+mes;Int64;Construida: último mes del trimestre;identificacion;100
+fecha;datetime64[ns];Construida;identificacion;100
+periodo;object;Construida;identificacion;100
+codigo_ccaa;int64;Demografía;identificacion;100
+comunidad_autonoma;object;Demografía;identificacion;100
+provincia_mapa;string;derivada;explicativa;100
+brecha_actividad_genero_pp;float64;Mercado laboral;derivada;100
+brecha_empleo_genero_pp;float64;Mercado laboral;derivada;100
+brecha_paro_genero_pp;float64;Mercado laboral;derivada;100
+viajeros_total;float64;Turismo;explicativa;100
+viajeros_residentes_espana;float64;Turismo;explicativa;100
+viajeros_residentes_extranjero;float64;Turismo;explicativa;100
+pernoctaciones_total;float64;Turismo;explicativa;100
+pernoctaciones_residentes_espana;float64;Turismo;explicativa;100
+pernoctaciones_residentes_extranjero;float64;Turismo;explicativa;100
+estancia_media_total;float64;Turismo;explicativa;99.66
+establecimientos_abiertos_estimados;float64;Turismo;explicativa;100
+habitaciones_estimadas;float64;Turismo;explicativa;100
+plazas_estimadas;float64;Turismo;explicativa;100
+personal_empleado_hoteles;float64;Turismo;explicativa;100
+grado_ocupacion_habitaciones_pct;float64;Turismo;explicativa;100
+grado_ocupacion_plazas_pct;float64;Turismo;explicativa;100
+grado_ocupacion_plazas_fin_semana_pct;float64;Turismo;explicativa;100
+poblacion_total;float64;Demografía;explicativa;100
+edad_media_aprox;float64;Demografía;explicativa;90
+pct_0_17;float64;Demografía;explicativa;90
+pct_18_34;float64;Demografía;explicativa;90
+pct_65_mas;float64;Demografía;explicativa;90
+indice_envejecimiento;float64;Demografía;explicativa;90
+tasa_dependencia;float64;Demografía;explicativa;90
+pct_mujeres;float64;Demografía;explicativa;100
+razon_masculinidad;float64;Demografía;explicativa;100
+tamano_medio_hogar;float64;Demografía;explicativa;90
+pct_hogares_unipersonales;float64;Demografía;explicativa;90
+pct_poblacion_espanola;float64;Demografía;explicativa;90
+hogares_1_persona_miles;float64;Vivienda - hogares;explicativa;40
+hogares_2_personas_miles;float64;Vivienda - hogares;explicativa;40
+hogares_3_personas_miles;float64;Vivienda - hogares;explicativa;40
+4 y más;float64;Vivienda - hogares;explicativa;40
+hogares_total_miles;float64;Vivienda - hogares;explicativa;40
+pct_hogares_1_persona;float64;Vivienda - hogares;explicativa;40
+tamano_medio_hogar_estimado;float64;Vivienda - hogares;explicativa;40
+renta_bruta_media_por_hogar_eur;float64;Economía - renta;explicativa;87.69
+renta_bruta_media_por_persona_eur;float64;Economía - renta;explicativa;87.69
+renta_mediana_por_unidad_consumo_eur;float64;Economía - renta;explicativa;87.69
+renta_neta_media_por_hogar_eur;float64;Economía - renta;explicativa;87.69
+renta_neta_media_por_persona_eur;float64;Economía - renta;explicativa;87.69
+confianza_construccion_pct_neto;float64;Economía nacional;explicativa;100
+confianza_consumidor_pct_neto;float64;Economía nacional;explicativa;100
+confianza_industria_manufacturera_pct_neto;float64;Economía nacional;explicativa;100
+ipc_general_variacion_interanual_pct;float64;Economía nacional;derivada;100
+pib_indice_volumen_base_2020;float64;Economía nacional;explicativa;100
+produccion_industrial_indice_base_2021;float64;Economía nacional;explicativa;100
+tasa_paro_nacional_pct;float64;Economía nacional;explicativa;100
+vab_construccion_indice_volumen_base_2020;float64;Economía nacional;explicativa;100
+salario_medio_anual_euros_total;float64;Mercado laboral - salarios;explicativa;60
+salario_medio_anual_euros_hombre;float64;Mercado laboral - salarios;explicativa;55.38
+salario_medio_anual_euros_mujer;float64;Mercado laboral - salarios;explicativa;55.38
+brecha_salarial_genero_pct;float64;Mercado laboral - salarios;derivada;55.38
+alquiler_mensual_eur_m2_mediana_vivienda_colectiva;float64;Territorial - alquiler;explicativa;36.92
+alquiler_mensual_total_eur_mediana_vivienda_colectiva;float64;Territorial - alquiler;explicativa;36.92
+superficie_m2_mediana_vivienda_colectiva;float64;Territorial - alquiler;explicativa;36.92
+observaciones_alquiler_vivienda_colectiva;float64;Territorial - alquiler;explicativa;36.92
+ipv_general;float64;Vivienda - IPV;objetivo_o_mercado_vivienda;100
+ipv_vivienda_nueva;float64;Vivienda - IPV;objetivo_o_mercado_vivienda;96.15
+ipv_segunda_mano;float64;Vivienda - IPV;objetivo_o_mercado_vivienda;96.15
+ipva_indice_general;float64;Vivienda - IPVA;objetivo_o_mercado_vivienda;92.31
+ipva_variacion_anual_general;float64;Vivienda - IPVA;objetivo_o_mercado_vivienda;92.31
+valor_tasado_m2;float64;Vivienda - valor tasado;objetivo_o_mercado_vivienda;100
+precio_suelo_m2;float64;Vivienda - suelo;explicativa;82.4
+superficie_m2;float64;Vivienda - suelo;explicativa;86.54
+numero_transacciones;float64;Vivienda - suelo;explicativa;86.54
+valor_transacciones_miles_euros;float64;Vivienda - suelo;explicativa;86.54
+ipv_nacional_variacion_interanual_pct;float64;Mercado inmobiliario nacional;objetivo_o_mercado_vivienda;100
+ipc_alquiler_variacion_interanual_pct;float64;Mercado inmobiliario nacional;derivada;100
+indice_costes_construccion;float64;Mercado inmobiliario nacional;explicativa;100
+compraventas_viviendas_total;float64;Mercado inmobiliario nacional;explicativa;100
+compraventas_viviendas_nuevas;float64;Mercado inmobiliario nacional;explicativa;100
+compraventas_viviendas_usadas;float64;Mercado inmobiliario nacional;explicativa;100
+plazo_medio_hipotecas_meses;float64;Mercado inmobiliario nacional;explicativa;100
+ratio_prestamo_valor_pct;float64;Mercado inmobiliario nacional;explicativa;100
+prestamos_ltv_superior_80_pct;float64;Mercado inmobiliario nacional;explicativa;100
+tipo_interes_prestamos_vivienda_pct;float64;Mercado inmobiliario nacional;explicativa;100
+tasa_paro_joven_20_29_nacional_pct;float64;Mercado inmobiliario nacional;explicativa;100
+ratio_precio_vivienda_renta_hogar_anios_nacional;float64;Mercado inmobiliario nacional;explicativa;100
+esfuerzo_teorico_vivienda_pct_nacional;float64;Mercado inmobiliario nacional;derivada;100
+credito_vivienda_variacion_interanual_pct;float64;Mercado inmobiliario nacional;derivada;100
+rentabilidad_anual_vivienda_pct;float64;Mercado inmobiliario nacional;explicativa;100
+rentabilidad_bruta_alquiler_pct;float64;Mercado inmobiliario nacional;explicativa;100
+parque_viviendas_estimado_nacional;float64;Mercado inmobiliario nacional;explicativa;100
+pct_vivienda_principal_propiedad_nacional;float64;Mercado inmobiliario nacional;explicativa;100
+pct_vivienda_principal_alquiler_nacional;float64;Mercado inmobiliario nacional;explicativa;100
+viajeros_por_1000_habitantes;float64;derivada;derivada;100
+pernoctaciones_por_habitante;float64;derivada;derivada;100
+plazas_hoteleras_por_1000_habitantes;float64;derivada;derivada;100
+transacciones_suelo_por_100000_habitantes;float64;derivada;derivada;86.54
+precio_vivienda_estimado_eur;float64;Derivada: valor tasado por m² × superficie mediana;derivada;36.92
+IAV_total;float64;Derivada: valor tasado por m² / salario medio anual total;objetivo_o_mercado_vivienda;60
+IAV_hombre;float64;Derivada: valor tasado por m² / salario medio anual masculino;objetivo_o_mercado_vivienda;55.38
+IAV_mujer;float64;Derivada: valor tasado por m² / salario medio anual femenino;objetivo_o_mercado_vivienda;55.38
+anios_renta_neta_hogar_para_compra;float64;derivada;derivada;36.92
+anios_renta_bruta_hogar_para_compra;float64;derivada;derivada;36.92
+esfuerzo_alquiler_renta_neta_pct;float64;derivada;derivada;36.92
+alquiler_eur_m2_sobre_valor_tasado_m2_pct;float64;derivada;explicativa;36.92
+valor_medio_transaccion_suelo_miles_eur;float64;derivada;derivada;84.52
+valor_suelo_estimado_miles_eur;float64;derivada;derivada;82.4
+valor_tasado_m2_variacion_interanual_pct;float64;derivada;objetivo_o_mercado_vivienda;90
+precio_suelo_m2_variacion_interanual_pct;float64;derivada;derivada;73.94
+viajeros_total_variacion_interanual_pct;float64;derivada;derivada;90
+pernoctaciones_total_variacion_interanual_pct;float64;derivada;derivada;90
+tasa_paro_pct_total_variacion_interanual_pct;float64;derivada;derivada;90
+valor_tasado_m2_lag_1t;float64;derivada;objetivo_o_mercado_vivienda;97.5
+valor_tasado_m2_lag_4t;float64;derivada;objetivo_o_mercado_vivienda;90
+valor_tasado_m2_media_movil_4t;float64;derivada;objetivo_o_mercado_vivienda;97.5

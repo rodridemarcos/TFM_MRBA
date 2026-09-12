@@ -6,7 +6,7 @@
   
   Para reproducir el entorno necesario para la ejecución del código,
   se recomienda crear un entorno virtual e instalar las dependencias
-  incluidas en `requirements.txt`:
+  incluidas en `Entorno_TFM.txt`:
   
   ```bash
   python -m venv .venv

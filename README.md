@@ -14,9 +14,13 @@
   pip install -r Entorno_TFM.txt
 
 - Carpeta "construcción_dataset":
-  En esta carpeta se encuentran varios códigos y conjuntos de datos.
-  1) Codigo_dataset_modelado_final.py: este código usa las series de datos que se encuentran en la carpeta "fuentes" para crear un dataset con 127             variables homogeneizadas llamado dataset_maestro_vivienda_trimestral_2015_2024_IAV.csv.
-  2) construir_dataset_TFM_MRBA.py: este código usa tanto dataset_maestro_vivienda_trimestral_2015_2024_IAV.csv como el de                                     fuentes_complementarias_provinciales.csv para desarrollar el dataset_TFM_MRBA para su posterior análisis en este TFM. Este script también genera un       fichero de auditoría, que muestra la descripción de las distintas variables que componen el dataset.
+  Esta carpeta contiene dos subcarpetas correspondientes a las dos etapas de procesamiento de los datos:
+  1) Subcarpeta "dataset_maestro":
+     - Codigo_dataset_maestro.py: Script que procesa las series originales ubicadas en la carpeta "fuentes" para generar un conjunto de datos                    inicial homogeneizado de 127 variables (dataset_maestro_vivienda_trimestral_2015_2024_IAV.csv).
+     - Contiene además el archivo de auditoría del conjunto maestro (auditoria_dataset_maestro.csv), que describe el contenido y la cobertura de cada una        de las variables.
+  2) Subcarpeta "dataset_TFM_MRBA":
+     - construir_dataset_TFM_MRBA.py: Script que toma como entrada el archivo dataset_maestro_vivienda_trimestral_2015_2024_IAV.csv y el fichero                 fuentes_complementarias_provinciales.csv para generar el conjunto de datos definitivo empleado en la modelización de este TFM.
+     - Subcarpeta "salidas": Ubicación donde el script almacena el dataset final (dataset_TFM_MRBA.csv) junto con su correspondiente fichero de auditoría        (auditoria_dataset_TFM_MRBA.csv), en el que se detallan las descripciones, unidades y características de las 37 variables seleccionadas.
  
 - Carpeta "modelización":
   En esta carpeta se encuentra el código, realizado en Google Colab, que analiza el dataset creado previamente. Se incluye en formato .ipynb y .html,       comentado en su totalidad de forma más técnica y a partir del cual se ha redactado la memoria del TFM.

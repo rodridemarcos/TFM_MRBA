@@ -19,7 +19,7 @@
   2) construir_dataset_TFM_MRBA.py: este código usa tanto dataset_maestro_vivienda_trimestral_2015_2024_IAV.csv como el de                                     fuentes_complementarias_provinciales.csv para desarrollar el dataset_TFM_MRBA para su posterior análisis en este TFM. Este script también genera un       fichero de auditoría, que muestra la descripción de las distintas variables que componen el dataset.
  
 - Carpeta "modelización":
-  En esta carpeta se encuentra el código, realizado en google colab, que analiza el dataset creado previamente, en formato .ipynb y .html, comentado en     su totalidad de forma técnica.
+  En esta carpeta se encuentra el código, realizado en Google Colab, que analiza el dataset creado previamente. Se incluye en formato .ipynb y .html,       comentado en su totalidad de forma más técnica y a partir del cual se ha redactado la memoria del TFM.
 
 - Ejecución de la aplicación:
   Descargar carpeta de "app" y subirla al entorno de desarrollo o IDE donde se vaya a ejecutar (en este caso, Spyder).

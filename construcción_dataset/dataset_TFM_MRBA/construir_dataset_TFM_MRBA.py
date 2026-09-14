@@ -7,15 +7,15 @@ Autor: Marcos Rodrigo Bermejo Arroyo
 Máster en Big Data, Data Science & Artificial Intelligence
 
 --------------------------------------------------------------------------------
-CADENA DE PROCEDENCIA DE LOS DATOS
+ETAPAS PARA CONSTRUIR ESTE DATASET
 
   Etapa 1. Descarga y depuración de las fuentes oficiales (INE, AEAT, Banco de
            España y Ministerio de Vivienda), organizadas por dominio temático en
-           las siete carpetas del repositorio.
-             -> Codigo_dataset_modelado_final.py
-
+           las siete carpetas del repositorio "fuentes".
+             
   Etapa 2. Integración de las fuentes en un conjunto maestro de 127 variables
            con estructura de panel provincial trimestral.
+             -> Codigo_dataset_maestro.py
              -> dataset_maestro_vivienda_trimestral_2015_2024_IAV.csv
 
   Etapa 3. Selección de variables, reconstrucción del precio de la vivienda y
@@ -54,7 +54,6 @@ FUENTES ORIGINALES
 """
 
 from pathlib import Path
-
 import numpy as np
 import pandas as pd
 

@@ -1,6 +1,6 @@
 """
 ================================================================================
-APLICACIÓN DE ACCESIBILIDAD RESIDENCIAL — TFM
+TFM - APLICACIÓN DE ACCESIBILIDAD RESIDENCIAL
 Predicción del Índice de Accesibilidad a la Vivienda (IAV) para 2025
 
 Autor: Marcos Rodrigo Bermejo Arroyo
@@ -9,7 +9,7 @@ Máster en Big Data, Data Science & Artificial Intelligence
 --------------------------------------------------------------------------------
 EJECUCIÓN
 
-    1. Instalar Flask:      pip install flask
+    1. Instalar Flask: pip install flask
     2. Colocar en la misma carpeta que este archivo:
          - modelo_TFM_MRBA.joblib
          - predicciones_2025.csv

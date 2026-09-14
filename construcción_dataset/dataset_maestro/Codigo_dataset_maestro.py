@@ -9,7 +9,6 @@ Autor: Marcos Rodrigo Bermejo Arroyo
 ================================================================================
 """
 from __future__ import annotations
-
 import argparse
 import re
 import unicodedata
@@ -18,7 +17,8 @@ from typing import Iterable
 import numpy as np
 import pandas as pd
 import warnings
-
+import urllib.request
+from urllib.parse import quote
 warnings.filterwarnings("ignore")
 
 ANIO_INICIO = 2015
@@ -37,7 +37,6 @@ SUBCARPETAS = {
 # Las fuentes se leen directamente del repositorio del proyecto en GitHub.
 # Para trabajar sin conexión basta con descargar la carpeta "fuentes" y
 # apuntar URL_FUENTES a la ruta local correspondiente.
-from urllib.parse import quote
 
 URL_FUENTES = (
     "https://raw.githubusercontent.com/rodridemarcos/TFM_MRBA/"
@@ -94,7 +93,6 @@ def leer_csv(raiz: Path, bloque: str, nombre: str,) -> pd.DataFrame:
 
     # Detecta automáticamente si el CSV utiliza coma o punto y coma
     # leyendo únicamente la primera línea.
-    import urllib.request
 
     with urllib.request.urlopen(url) as respuesta:
         primera_linea = (
